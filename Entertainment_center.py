@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#Declaring and Initializing the different move objects with respective attributtes
+#Declaring and initializing the different movie objects with respective attributtes
 toy_story = media.Movie("Toy Story","A story of a boy and his toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
