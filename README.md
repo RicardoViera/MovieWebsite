@@ -7,5 +7,4 @@ A demonstration containing server side Python code to display a HTML page of var
 * Page is error free.
 
 # How to use 
-1. Download the repository.
-2. Run python Entertainment_center.py
+1. Run python Entertainment_center.py
