@@ -6,8 +6,6 @@ A demonstration containing server side Python code to display a HTML page of var
 * Page does present required content (movie title, box art and trailer link).
 * Page is error free.
 
-# Usage
-
+# How to use 
 1. Download the repository.
-2. Run
-python Entertainment_center.py
+2. Run python Entertainment_center.py
