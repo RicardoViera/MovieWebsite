@@ -10,4 +10,4 @@ A demonstration containing server side Python code to display a HTML page of var
 
 1. Download the repository.
 2. Run
-python movie.py
+python Entertainment_center.py
