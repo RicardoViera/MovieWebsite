@@ -2,30 +2,30 @@ import media
 import fresh_tomatoes
 
 #Declaring and initializing the different movie objects with respective attributtes
-toy_story = media.Movie("Toy Story","A story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+harry_p = media.Movie("Harry Potter and the Sorcerer's Stone","A story of a young magician and his adventures",
+                        "https://i.jeded.com/i/harry-potter-and-the-sorcerers-stone.30084.jpg",
+                        "https://www.youtube.com/watch?v=VyHV0BRtdxo")
 
-avatar = media.Movie("Avatar",
-                     "A marine on an alien Planet",
-                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
+departed = media.Movie("The Departed",
+                     "A story about old school gangsters and FBI agents",
+                     "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
+                     "https://www.youtube.com/watch?v=auYbpnEwBBg")
 
-school_of_rock =media.Movie("School of Rock",
-                            "A school for kids to learn rock",
-                            "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                            "https://www.youtube.com/watch?v=XCwy6lW5Ixc" )
+hobbit =media.Movie("The Hobbit: The Battle of the Five Armies",
+                            "The closing chapter of the middle earth saga",
+                            "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg",
+                            "https://www.youtube.com/watch?v=ZSzeFFsKEt4" )
 
-ratatouille = media. Movie( "Ratatouille" ,
-                            "A rat that wants to be a chef",
-                            "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+mr_deeds = media. Movie( "Mr. Deeds" ,
+                            "A good man who suddenly becomes rich",
+                            "https://upload.wikimedia.org/wikipedia/en/6/63/Mr_deeds_ver2.jpg",
                             "https://www.youtube.com/watch?v=c3sBBRxDAqk")
 
 
-midnight_in_paris = media. Movie( "Midnight in Paris " ,
-                                 "A guy who parties at night in Paris hiddden from his wife",
-                                 "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                                 "https://www.youtube.com/watch?v=FAfR8omt-CY")
+monster = media. Movie( "Monsters, Inc" ,
+                                 "A story about monsters and nightmares",
+                                 "https://upload.wikimedia.org/wikipedia/en/6/63/Monsters_Inc.JPG",
+                                 "https://www.youtube.com/watch?v=cvOQeozL4S0")
 
 hunger_games = media. Movie("Hunger Games",
                            "A contest for survival amongst youngsters" ,
@@ -33,7 +33,7 @@ hunger_games = media. Movie("Hunger Games",
                            "https://www.youtube.com/watch?v=4S9a5V9ODuY")
 
 #Creating a movie array
-movies =[toy_story ,avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies =[harry_p ,departed, hobbit, mr_deeds, monster, hunger_games]
 fresh_tomatoes.open_movies_page(movies)#Passing such movie array to open_movies_page method
 
 #Testing instance and assigned variables
