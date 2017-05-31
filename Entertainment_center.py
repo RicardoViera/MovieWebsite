@@ -2,9 +2,10 @@ import media
 import fresh_tomatoes
 
 #Declaring and initializing the different movie objects with respective attributtes
-harry_p = media.Movie("Harry Potter and the Sorcerer's Stone","A story of a young magician and his adventures",
-                        "https://i.jeded.com/i/harry-potter-and-the-sorcerers-stone.30084.jpg",
-                        "https://www.youtube.com/watch?v=VyHV0BRtdxo")
+harry_p = media.Movie("Harry Potter and the Sorcerer's Stone",
+                      "A story of a young magician and his adventures",
+                      "https://i.jeded.com/i/harry-potter-and-the-sorcerers-stone.30084.jpg",
+                      "https://www.youtube.com/watch?v=VyHV0BRtdxo")
 
 departed = media.Movie("The Departed",
                      "A story about old school gangsters and FBI agents",
@@ -32,13 +33,9 @@ hunger_games = media. Movie("Hunger Games",
                            "https://upload.wikimedia.org/wikipedia/en/4/4b/Hunger_Games_Film_Poster.jpg",
                            "https://www.youtube.com/watch?v=4S9a5V9ODuY")
 
-#Creating a movie array
+# Creating a movie array
 movies =[harry_p ,departed, hobbit, mr_deeds, monster, hunger_games]
-fresh_tomatoes.open_movies_page(movies)#Passing such movie array to open_movies_page method
+fresh_tomatoes.open_movies_page(movies) # Passing such movie array to open_movies_page method
 
-#Testing instance and assigned variables
 
-#print(media. Movie.VALID_RATINGS)
-#print(media. Movie.__doc__)
-#print(media. Movie.__name__)
-#print(media. Movie.__module__)
+
